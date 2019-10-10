@@ -1,0 +1,10 @@
+G:\WinFormApp (Сентябрь)\CRUD_WSR\bin\Release\CRUD_WSR.exe.config
+G:\WinFormApp (Сентябрь)\CRUD_WSR\bin\Release\CRUD_WSR.exe
+G:\WinFormApp (Сентябрь)\CRUD_WSR\bin\Release\CRUD_WSR.pdb
+G:\WinFormApp (Сентябрь)\CRUD_WSR\obj\Release\CRUD_WSR.csprojAssemblyReference.cache
+G:\WinFormApp (Сентябрь)\CRUD_WSR\obj\Release\CRUD_WSR.Form1.resources
+G:\WinFormApp (Сентябрь)\CRUD_WSR\obj\Release\CRUD_WSR.Properties.Resources.resources
+G:\WinFormApp (Сентябрь)\CRUD_WSR\obj\Release\CRUD_WSR.csproj.GenerateResource.cache
+G:\WinFormApp (Сентябрь)\CRUD_WSR\obj\Release\CRUD_WSR.csproj.CoreCompileInputs.cache
+G:\WinFormApp (Сентябрь)\CRUD_WSR\obj\Release\CRUD_WSR.exe
+G:\WinFormApp (Сентябрь)\CRUD_WSR\obj\Release\CRUD_WSR.pdb
