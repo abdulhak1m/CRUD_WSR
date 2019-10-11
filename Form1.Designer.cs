@@ -32,34 +32,34 @@
             this.pnl_Top = new System.Windows.Forms.Panel();
             this.btn_Close = new System.Windows.Forms.Button();
             this.pnl_Menu = new System.Windows.Forms.Panel();
-            this.pnl_View = new System.Windows.Forms.Panel();
-            this.pnl_Edit = new System.Windows.Forms.Panel();
-            this.switch_notes = new System.Windows.Forms.Button();
             this.switch_deleted = new System.Windows.Forms.Button();
             this.switch_View = new System.Windows.Forms.Button();
-            this.pnl_Deleted = new System.Windows.Forms.Panel();
-            this.txt_name = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txt_surname = new System.Windows.Forms.TextBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txt_group = new System.Windows.Forms.TextBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txt_instgram = new System.Windows.Forms.TextBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.btn_add = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.txt_search = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.switch_notes = new System.Windows.Forms.Button();
+            this.pnl_View = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txt_search = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.pnl_Edit = new System.Windows.Forms.Panel();
+            this.btn_add = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.txt_instgram = new System.Windows.Forms.TextBox();
+            this.txt_group = new System.Windows.Forms.TextBox();
+            this.txt_surname = new System.Windows.Forms.TextBox();
+            this.txt_name = new System.Windows.Forms.TextBox();
+            this.pnl_Deleted = new System.Windows.Forms.Panel();
             this.pnl_Top.SuspendLayout();
             this.pnl_Menu.SuspendLayout();
             this.pnl_View.SuspendLayout();
-            this.pnl_Edit.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.pnl_Edit.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnl_Top
@@ -100,6 +100,51 @@
             this.pnl_Menu.Size = new System.Drawing.Size(103, 425);
             this.pnl_Menu.TabIndex = 1;
             // 
+            // switch_deleted
+            // 
+            this.switch_deleted.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.switch_deleted.FlatAppearance.BorderSize = 0;
+            this.switch_deleted.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.switch_deleted.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.switch_deleted.Image = ((System.Drawing.Image)(resources.GetObject("switch_deleted.Image")));
+            this.switch_deleted.Location = new System.Drawing.Point(15, 246);
+            this.switch_deleted.Name = "switch_deleted";
+            this.switch_deleted.Size = new System.Drawing.Size(72, 35);
+            this.switch_deleted.TabIndex = 0;
+            this.switch_deleted.UseVisualStyleBackColor = true;
+            // 
+            // switch_View
+            // 
+            this.switch_View.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.switch_View.FlatAppearance.BorderSize = 0;
+            this.switch_View.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.switch_View.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.switch_View.Image = ((System.Drawing.Image)(resources.GetObject("switch_View.Image")));
+            this.switch_View.Location = new System.Drawing.Point(15, 194);
+            this.switch_View.Name = "switch_View";
+            this.switch_View.Size = new System.Drawing.Size(72, 35);
+            this.switch_View.TabIndex = 0;
+            this.switch_View.UseVisualStyleBackColor = true;
+            // 
+            // switch_notes
+            // 
+            this.switch_notes.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.switch_notes.FlatAppearance.BorderSize = 0;
+            this.switch_notes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.switch_notes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.switch_notes.Image = ((System.Drawing.Image)(resources.GetObject("switch_notes.Image")));
+            this.switch_notes.Location = new System.Drawing.Point(15, 143);
+            this.switch_notes.Name = "switch_notes";
+            this.switch_notes.Size = new System.Drawing.Size(72, 35);
+            this.switch_notes.TabIndex = 0;
+            this.switch_notes.UseVisualStyleBackColor = true;
+            // 
             // pnl_View
             // 
             this.pnl_View.Controls.Add(this.panel5);
@@ -111,6 +156,42 @@
             this.pnl_View.Name = "pnl_View";
             this.pnl_View.Size = new System.Drawing.Size(697, 425);
             this.pnl_View.TabIndex = 1;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.BlueViolet;
+            this.panel5.Location = new System.Drawing.Point(363, 143);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(219, 5);
+            this.panel5.TabIndex = 3;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(301, 121);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(56, 18);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Поиск:";
+            // 
+            // txt_search
+            // 
+            this.txt_search.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_search.Location = new System.Drawing.Point(363, 121);
+            this.txt_search.Name = "txt_search";
+            this.txt_search.Size = new System.Drawing.Size(219, 17);
+            this.txt_search.TabIndex = 1;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.BlueViolet;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.GridColor = System.Drawing.Color.White;
+            this.dataGridView1.Location = new System.Drawing.Point(115, 153);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(467, 150);
+            this.dataGridView1.TabIndex = 0;
             // 
             // pnl_Edit
             // 
@@ -133,159 +214,6 @@
             this.pnl_Edit.Size = new System.Drawing.Size(697, 425);
             this.pnl_Edit.TabIndex = 1;
             // 
-            // switch_notes
-            // 
-            this.switch_notes.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.switch_notes.FlatAppearance.BorderSize = 0;
-            this.switch_notes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.switch_notes.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.switch_notes.Image = ((System.Drawing.Image)(resources.GetObject("switch_notes.Image")));
-            this.switch_notes.Location = new System.Drawing.Point(15, 143);
-            this.switch_notes.Name = "switch_notes";
-            this.switch_notes.Size = new System.Drawing.Size(72, 35);
-            this.switch_notes.TabIndex = 0;
-            this.switch_notes.UseVisualStyleBackColor = true;
-            // 
-            // switch_deleted
-            // 
-            this.switch_deleted.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.switch_deleted.FlatAppearance.BorderSize = 0;
-            this.switch_deleted.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.switch_deleted.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.switch_deleted.Image = ((System.Drawing.Image)(resources.GetObject("switch_deleted.Image")));
-            this.switch_deleted.Location = new System.Drawing.Point(15, 246);
-            this.switch_deleted.Name = "switch_deleted";
-            this.switch_deleted.Size = new System.Drawing.Size(72, 35);
-            this.switch_deleted.TabIndex = 0;
-            this.switch_deleted.UseVisualStyleBackColor = true;
-            // 
-            // switch_View
-            // 
-            this.switch_View.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.switch_View.FlatAppearance.BorderSize = 0;
-            this.switch_View.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.switch_View.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.switch_View.Image = ((System.Drawing.Image)(resources.GetObject("switch_View.Image")));
-            this.switch_View.Location = new System.Drawing.Point(15, 194);
-            this.switch_View.Name = "switch_View";
-            this.switch_View.Size = new System.Drawing.Size(72, 35);
-            this.switch_View.TabIndex = 0;
-            this.switch_View.UseVisualStyleBackColor = true;
-            // 
-            // pnl_Deleted
-            // 
-            this.pnl_Deleted.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl_Deleted.Location = new System.Drawing.Point(103, 25);
-            this.pnl_Deleted.Name = "pnl_Deleted";
-            this.pnl_Deleted.Size = new System.Drawing.Size(697, 425);
-            this.pnl_Deleted.TabIndex = 0;
-            // 
-            // txt_name
-            // 
-            this.txt_name.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_name.Location = new System.Drawing.Point(220, 74);
-            this.txt_name.Name = "txt_name";
-            this.txt_name.Size = new System.Drawing.Size(261, 19);
-            this.txt_name.TabIndex = 0;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.BlueViolet;
-            this.panel1.Location = new System.Drawing.Point(220, 96);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(261, 5);
-            this.panel1.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(216, 51);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 20);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Имя:";
-            // 
-            // txt_surname
-            // 
-            this.txt_surname.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_surname.Location = new System.Drawing.Point(220, 151);
-            this.txt_surname.Name = "txt_surname";
-            this.txt_surname.Size = new System.Drawing.Size(261, 19);
-            this.txt_surname.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.BlueViolet;
-            this.panel2.Location = new System.Drawing.Point(220, 173);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(261, 5);
-            this.panel2.TabIndex = 1;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(216, 128);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 20);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Фамилия:";
-            // 
-            // txt_group
-            // 
-            this.txt_group.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_group.Location = new System.Drawing.Point(220, 223);
-            this.txt_group.Name = "txt_group";
-            this.txt_group.Size = new System.Drawing.Size(261, 19);
-            this.txt_group.TabIndex = 0;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.BlueViolet;
-            this.panel3.Location = new System.Drawing.Point(220, 245);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(261, 5);
-            this.panel3.TabIndex = 1;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(216, 200);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 20);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Группа:";
-            // 
-            // txt_instgram
-            // 
-            this.txt_instgram.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_instgram.Location = new System.Drawing.Point(220, 292);
-            this.txt_instgram.Name = "txt_instgram";
-            this.txt_instgram.Size = new System.Drawing.Size(261, 19);
-            this.txt_instgram.TabIndex = 0;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.BlueViolet;
-            this.panel4.Location = new System.Drawing.Point(220, 314);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(261, 5);
-            this.panel4.TabIndex = 1;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(216, 269);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(84, 20);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "instagram:";
-            // 
             // btn_add
             // 
             this.btn_add.BackColor = System.Drawing.Color.BlueViolet;
@@ -300,41 +228,113 @@
             this.btn_add.UseVisualStyleBackColor = false;
             this.btn_add.Click += new System.EventHandler(this.Btn_add_Click);
             // 
-            // dataGridView1
+            // label4
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.BlueViolet;
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.GridColor = System.Drawing.Color.White;
-            this.dataGridView1.Location = new System.Drawing.Point(115, 153);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(467, 150);
-            this.dataGridView1.TabIndex = 0;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(216, 269);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(77, 18);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "instagram:";
             // 
-            // txt_search
+            // label3
             // 
-            this.txt_search.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_search.Location = new System.Drawing.Point(363, 121);
-            this.txt_search.Name = "txt_search";
-            this.txt_search.Size = new System.Drawing.Size(219, 19);
-            this.txt_search.TabIndex = 1;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(216, 200);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(60, 18);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Группа:";
             // 
-            // label5
+            // label2
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(301, 121);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 20);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Поиск:";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(216, 128);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(77, 18);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Фамилия:";
             // 
-            // panel5
+            // label1
             // 
-            this.panel5.BackColor = System.Drawing.Color.BlueViolet;
-            this.panel5.Location = new System.Drawing.Point(363, 143);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(219, 5);
-            this.panel5.TabIndex = 3;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(216, 51);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(42, 18);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Имя:";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.BlueViolet;
+            this.panel4.Location = new System.Drawing.Point(220, 314);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(261, 5);
+            this.panel4.TabIndex = 1;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.BlueViolet;
+            this.panel3.Location = new System.Drawing.Point(220, 245);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(261, 5);
+            this.panel3.TabIndex = 1;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.BlueViolet;
+            this.panel2.Location = new System.Drawing.Point(220, 173);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(261, 5);
+            this.panel2.TabIndex = 1;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.BlueViolet;
+            this.panel1.Location = new System.Drawing.Point(220, 96);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(261, 5);
+            this.panel1.TabIndex = 1;
+            // 
+            // txt_instgram
+            // 
+            this.txt_instgram.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_instgram.Location = new System.Drawing.Point(220, 292);
+            this.txt_instgram.Name = "txt_instgram";
+            this.txt_instgram.Size = new System.Drawing.Size(261, 17);
+            this.txt_instgram.TabIndex = 0;
+            // 
+            // txt_group
+            // 
+            this.txt_group.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_group.Location = new System.Drawing.Point(220, 223);
+            this.txt_group.Name = "txt_group";
+            this.txt_group.Size = new System.Drawing.Size(261, 17);
+            this.txt_group.TabIndex = 0;
+            // 
+            // txt_surname
+            // 
+            this.txt_surname.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_surname.Location = new System.Drawing.Point(220, 151);
+            this.txt_surname.Name = "txt_surname";
+            this.txt_surname.Size = new System.Drawing.Size(261, 17);
+            this.txt_surname.TabIndex = 0;
+            // 
+            // txt_name
+            // 
+            this.txt_name.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_name.Location = new System.Drawing.Point(220, 74);
+            this.txt_name.Name = "txt_name";
+            this.txt_name.Size = new System.Drawing.Size(261, 17);
+            this.txt_name.TabIndex = 0;
+            // 
+            // pnl_Deleted
+            // 
+            this.pnl_Deleted.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl_Deleted.Location = new System.Drawing.Point(103, 25);
+            this.pnl_Deleted.Name = "pnl_Deleted";
+            this.pnl_Deleted.Size = new System.Drawing.Size(697, 425);
+            this.pnl_Deleted.TabIndex = 0;
             // 
             // Form1
             // 
@@ -346,18 +346,19 @@
             this.Controls.Add(this.pnl_Deleted);
             this.Controls.Add(this.pnl_Menu);
             this.Controls.Add(this.pnl_Top);
-            this.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.pnl_Top.ResumeLayout(false);
             this.pnl_Menu.ResumeLayout(false);
             this.pnl_View.ResumeLayout(false);
             this.pnl_View.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.pnl_Edit.ResumeLayout(false);
             this.pnl_Edit.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }

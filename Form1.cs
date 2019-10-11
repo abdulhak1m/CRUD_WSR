@@ -44,6 +44,7 @@ namespace CRUD_WSR
                     int row = command.ExecuteNonQuery();
                     isSuccess = row > 0 ? true : false;
                     ClearRow();
+                    Refresh();
                 }
             }
             catch (Exception ex) { MessageBox.Show("Косяк", ex.Source, MessageBoxButtons.OK, MessageBoxIcon.Error); }
@@ -67,7 +68,33 @@ namespace CRUD_WSR
             pnl_Top.MouseMove += (s, e) => { if (move == 1) SetDesktopLocation(MousePosition.X - moveX, MousePosition.Y - moveY); };
             pnl_Top.MouseUp += (s, e) => { move = 0; };
         }
+        // метод выгрузки данных в dataGridView1
+        public new DataTable Select()
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                string query = "SELECT * FROM db_User";
+                using (SqlConnection sqlConnection = new SqlConnection(myConnection))
+                {
+                    sqlConnection.Open();
+                    SqlCommand command = new SqlCommand(query, sqlConnection);
+                    using (SqlDataAdapter sda = new SqlDataAdapter(command))
+                    {
+                        sda.Fill(dt);
+                    }
+                }
+            }
+            catch { }
+            return dt;
+        }
 
+        // метод обновления Таблицы
+        private new void Refresh()
+        {
+            DataTable dt = Select();
+            dataGridView1.DataSource = dt;
+        }
         // сообщение
         void Message(string line)
         {
@@ -76,8 +103,16 @@ namespace CRUD_WSR
 
         private void Btn_add_Click(object sender, EventArgs e)
         {
-            bool success = Insert();
-            Message(success ? "Данные успешно отправлены в Базе Данных." : "Данные не отправлены в Бвзу Данных. Косяк брат!");
+            if (!string.IsNullOrEmpty(txt_name.Text) && !string.IsNullOrEmpty(txt_surname.Text) &&
+                !string.IsNullOrEmpty(txt_group.Text) && !string.IsNullOrEmpty(txt_instgram.Text))
+            {
+                bool success = Insert();
+                Message(success ? "Данные успешно отправлены в Базе Данных." : "Данные не отправлены в Бвзу Данных. Косяк брат!");
+            }
+            else
+                Message("Добаление не может быть осуществлена, вы не заполнили поля! Косяк бро.");
         }
+
+        private void Form1_Load(object sender, EventArgs e) => Refresh();
     }
 }
